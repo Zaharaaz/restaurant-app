@@ -1,0 +1,52 @@
+name: restaurant_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  flutter: ">=3.35.0"
+  sdk: ">=3.9.2 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  provider: ^6.1.5
+  google_fonts: ^6.3.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  flutter_local_notifications: ^19.4.2
+  timezone: ^0.10.1
+  flutter_timezone: ^5.0.0
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.5.3
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: ^5.5.1
+  build_runner: ^2.8.0
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/static/
+  
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/static/Oswald-Regular.ttf
+        - asset: assets/fonts/static/Oswald-Bold.ttf
+        - asset: assets/fonts/static/Oswald-Light.ttf
+        - asset: assets/fonts/static/Oswald-Medium.ttf
+        - asset: assets/fonts/static/Oswald-SemiBold.ttf
+        - asset: assets/fonts/static/Oswald-ExtraLight.ttf
+     
+

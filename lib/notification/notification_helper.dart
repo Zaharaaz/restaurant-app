@@ -10,6 +10,7 @@ class NotificationHelper {
 
   // Inisialisasi notifikasi
   static Future<void> init() async {
+    tz.initializeTimeZones();
     const AndroidInitializationSettings androidInitializationSettings =
         AndroidInitializationSettings('@mipmap/ic_launcher');
 
